@@ -1,0 +1,112 @@
+[
+  {
+    "_id": {
+      "$oid": "663d0f62403fc0199f19cd84"
+    },
+    "question": "Who directed the movie 'Inception'?",
+    "A": "Christopher Nolan",
+    "B": "Steven Spielberg",
+    "C": "Quentin Tarantino",
+    "D": "Martin Scorsese",
+    "answer": "A"
+  },
+  {
+    "_id": {
+      "$oid": "663d1531403fc0199f19cd88"
+    },
+    "question": "Which actor played the character Neo in the movie 'The Matrix'?",
+    "A": "Leonardo DiCaprio",
+    "B": "Keanu Reeves",
+    "C": "Tom Cruise",
+    "D": "Brad Pitt",
+    "answer": "B"
+  },
+  {
+    "_id": {
+      "$oid": "663e5e9b499b6ec3d042121b"
+    },
+    "question": "What is the highest-grossing film of all time?",
+    "A": "Avatar",
+    "B": "Avengers: Endgame",
+    "C": "Titanic",
+    "D": "Jurassic World",
+    "answer": "B"
+  },
+  {
+    "_id": {
+      "$oid": "663f3c3414a59e5625d0f925"
+    },
+    "question": "Which movie won the Academy Award for Best Picture in 2020?",
+    "A": "Parasite",
+    "B": "1917",
+    "C": "Joker",
+    "D": "The Irishman",
+    "answer": "A"
+  },
+  {
+    "_id": {
+      "$oid": "663f3c7c14a59e5625d0f926"
+    },
+    "question": "Who won the Academy Award for Best Actor in 2021?",
+    "A": "Anthony Hopkins",
+    "B": "Joaquin Phoenix",
+    "C": "Rami Malek",
+    "D": "Brad Pitt",
+    "answer": "A"
+  },
+  {
+    "_id": {
+      "$oid": "663f3ca414a59e5625d0f927"
+    },
+    "question": "Which movie franchise features characters named Harry, Ron, and Hermione?",
+    "A": "Twilight",
+    "B": "The Hunger Games",
+    "C": "The Lord of the Rings",
+    "D": "Harry Potter",
+    "answer": "D"
+  },
+  {
+    "_id": {
+      "$oid": "663f3cdb14a59e5625d0f928"
+    },
+    "question": "Who played the iconic character James Bond in the movie 'Casino Royale'?",
+    "A": "Daniel Craig",
+    "B": "Pierce Brosnan",
+    "C": "Sean Connery",
+    "D": "Roger Moore",
+    "answer": "A"
+  },
+  {
+    "_id": {
+      "$oid": "663f3d5e14a59e5625d0f929"
+    },
+    "question": "Which movie features the character Jack Dawson and Rose DeWitt Bukater?",
+    "A": "Titanic",
+    "B": "The Shawshank Redemption",
+    "C": "Forrest Gump",
+    "D": "The Godfather",
+    "answer": "A"
+  },
+  {
+    "_id": {
+      "$oid": "663f3ddc14a59e5625d0f92a"
+    },
+    "question": "Who directed the movie 'Pulp Fiction'?",
+    "A": "Steven Spielberg",
+    "B": "Martin Scorsese",
+    "C": "Quentin Tarantino",
+    "D": "Francis Ford Coppola",
+    "answer": "C"
+  },
+  {
+    "_id": {
+      "$oid": "663f3e2714a59e5625d0f92b"
+    },
+    "question": "Which movie features the line 'Here's looking at you, kid'?",
+    "A": "Gone with the Wind",
+    "B": "Casablanca",
+    "C": "Citizen Kane",
+    "D": "The Wizard of Oz",
+    "answer": "B"
+  }
+]
