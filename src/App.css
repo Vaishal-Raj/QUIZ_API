@@ -1,38 +1,202 @@
-.App {
+body{
+  background-image: url(https://c.wallhere.com/photos/48/ee/J_Robert_Oppenheimer_Cillian_Murphy_movies_movie_poster_atomic_bomb_explosion_actor_technology-2261498.jpg!d);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -200px;
+}
+
+.Admin {
+  position: relative;
+  top:240px;
+  margin: 50px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Admin h1{
+  text-decoration: underline;
+  background-color: lightblue;
+}
+table {
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #eaeaea;
+}
+
+#Login-container {
+  position: relative;
+  top:350px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  opacity: 90%;
+}
+
+form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+label {
+  margin-bottom: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+/*FOR quizap.js------------------------------------------------------*/
+.quiz {
+  position: relative;
+  top:250px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.question {
+  position: relative;
+  left:15%;
+  top:100px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 70%;
+}
+
+.question h2 {
+  margin-bottom: 15px;
+}
+
+.question ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.question ul li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.question ul li:hover {
+  background-color: #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.Selected{
+  background-color:lightblue !important;
+  font-weight: bold;
+}
+
+/*FOR SCORE.JS------------------------------------*/
+.score {
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: white;
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  position: relative;
+  top:250px
+
+}
+.score:hover{
+  background-color: lightgray;
+}
+.score h1 {
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.score button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.score button:hover {
+  background-color: #0056b3;
 }
